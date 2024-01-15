@@ -1,0 +1,18 @@
+---
+name: google-java-format-80
+description: google-java-format is a program that reformats Java source code to comply with Google Java Style. BUT with line length 80
+homepage: https://github.com/ssemtner/google-java-format-80
+licenses:
+  - Apache-2.0
+languages:
+  - Java
+categories:
+  - Formatter
+
+source:
+  id: pkg:github/ssemtner/google-java-format-80@v1.19.2-80c
+  asset:
+    file: google-java-format-HEAD-SNAPSHOT-all-deps.jar
+
+bin:
+  google-java-format: java-jar:{{source.asset.file}}
